@@ -29,7 +29,7 @@ import (
     "go.gh.ink/payutils/v3/model"
 
     httpGin "go.gh.ink/payutils/http/gin/v3"
-    _ "go.gh.ink/payutils-pay-alipay/v3"
+    _ "go.gh.ink/payutils/pay/alipay/v3"
 )
 
 r := gin.New()
